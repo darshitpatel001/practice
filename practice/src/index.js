@@ -91,7 +91,7 @@ root.render(
     {/* <Card /> */}
     {/* <Tasks /> */}
     {/* -------------------------------api------------------------------------- */}
-    <Fatch/>
+    {/* <Fatch/> */}
     {/* <Test/> */}
     {/* <Fatchapi /> */}
     {/* <Emploayee/> */}
@@ -101,7 +101,7 @@ root.render(
     {/* <Formcoll /> */}
     {/* <Myformik /> */}
     {/* <Formformik/> */}
-    {/* <Taskvalidation/> */}
+    <Taskvalidation/>
     {/* <Cardlayout/> */}
     {/* <Eductiontodo/> */}
     {/* <Carformik/> */}
@@ -178,4 +178,3 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-    
