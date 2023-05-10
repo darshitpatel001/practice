@@ -34,4 +34,4 @@ export default function Task5() {
       </table>
     </div>
   );
-}
+};
