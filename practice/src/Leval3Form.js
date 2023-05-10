@@ -181,6 +181,7 @@ const handleInputChangeexpp = (e, index) => {
                 <label class="form-label">Education Level : </label>
                 <select
                   name="edu"
+                  className="btn"
                   onChange={(e) => handleInputChangeedu(e, i)}
                   value={value.edu}
                 >
@@ -231,7 +232,7 @@ const handleInputChangeexpp = (e, index) => {
                 <div className="btn-box">
                   {dataeducation.length !== 1 && (
                     <button
-                      className="mr10"
+                      className="mr10 btn"
                       onClick={() => handleRemoveClick(i)}
                     >
                       Remove
@@ -297,7 +298,7 @@ const handleInputChangeexpp = (e, index) => {
                 <div className="btn-box">
                   {dataexper.length !== 1 && (
                     <button
-                      className="mr10"
+                      className="mr10 btn"
                       onClick={() => handleRemoveClickexp(i)}
                     >
                       Remove
